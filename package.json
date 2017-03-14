@@ -1,0 +1,66 @@
+{
+    "author": "Jdm",
+    "dependencies": {},
+    "keywords": [],
+    "name": "leuvens3",
+    "pebble": {
+        "displayName": "Leuvens3",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "type": "png"
+                },
+                {
+                    "file": "images/battery-charge.png",
+                    "name": "BATTERY_CHARGE",
+                    "type": "png"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/Munro.ttf",
+                    "name": "FONT_TINY_10",
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/Aller_Lt.ttf",
+                    "name": "FONT_THIN_32",
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/Aller_Lt.ttf",
+                    "name": "FONT_THIN_20",
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/Aller_Lt.ttf",
+                    "name": "FONT_THIN_14",
+                    "type": "font"
+                },
+                {
+                    "compatibility": "2.7",
+                    "file": "fonts/AllerDisplay.ttf",
+                    "name": "FONT_THICK_32",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "58824d53-e156-4294-a9f1-122654db0808",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "5.2.0"
+}
